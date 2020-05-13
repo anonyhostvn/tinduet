@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7fc266-819c-4af4-82d6-57e7e298f300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/basicLayout.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/BasicLayout/basicLayout.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileTag/example.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/mockData/example.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileTag/example1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/mockData/example1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileTag/example2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/mockData/example2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileTag/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileTag/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileTag/profileTag.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileTag/profileTag.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/MatchingPlace/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/MatchingPlace/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ProfileTag" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portal-base-project-typescript" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,11 +51,25 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\tinduet-webapp\src\mockData" />
       <recent name="D:\workspace\tinduet-webapp\src\App" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\tinduet-webapp\src\mockData" />
       <recent name="D:\workspace\tinduet-webapp\src\components\ProfileTag" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -82,7 +100,12 @@
       <workItem from="1586850791170" duration="953000" />
       <workItem from="1586873661582" duration="607000" />
       <workItem from="1586915980185" duration="104000" />
-      <workItem from="1586919386238" duration="5553000" />
+      <workItem from="1586919386238" duration="5600000" />
+      <workItem from="1586935392908" duration="622000" />
+      <workItem from="1588665766340" duration="1232000" />
+      <workItem from="1588696198847" duration="5786000" />
+      <workItem from="1588731217183" duration="92000" />
+      <workItem from="1589384132416" duration="20000" />
     </task>
     <servers />
   </component>
@@ -94,26 +117,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="596" y="292" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586920760270" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586916081900">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588701354930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586916081900" />
-    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1586921026039">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588701354930" />
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1588701717370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586921026039" />
-    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1586921026039">
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588701717370" />
+    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1588701717370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586921026039" />
-    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1586921026038">
+    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588701717370" />
+    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1588701717370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586921026038" />
-    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1586921026039">
+    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588701717370" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1588701717370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586921026039" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588701717370" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586920720692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -122,5 +145,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586921722232" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588701837313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588701837313" />
   </component>
 </project>

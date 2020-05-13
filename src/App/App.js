@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
 import BasicLayout from "../Layout/BasicLayout";
-import MatchingPlace from "../container/MatchingPlace";
+import {AppRoute} from "./App.router";
+
 
 function App() {
-  return (
-    <div className="App">
-      <BasicLayout>
-        <MatchingPlace/>
-      </BasicLayout>
-    </div>
-  );
+    return (
+        <BasicLayout>
+            <AppRoute/>
+        </BasicLayout>
+    );
 }
 
 export default App;

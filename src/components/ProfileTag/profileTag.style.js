@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const WrapperProfileTag = styled.div`
-  //overflow: auto;
+  width: 400px;
   .ant-card-body {
     padding: 0;
     border-radius: inherit;
@@ -12,6 +12,6 @@ export const WrapperProfileTag = styled.div`
   
   .ant-card {
     border-radius: 10px;
-    width: 400px;
+    //width: 400px;
   }
 `;

@@ -7,5 +7,5 @@ export const BasicLayoutWrapper = styled.div`
 
 export const ContentWrapper = styled.div`
   height: 100vh;
-  width: 70%;
+  width: 100%;
 `;
