@@ -1,6 +1,7 @@
 import React from 'react';
 import MatchingPlace from "../container/MatchingPlace";
 import {Route, Router, Switch} from "react-router-dom";
+import {history} from "../redux/store";
 
 export const routes = [
     {
@@ -11,6 +12,7 @@ export const routes = [
 
 export const AppRoute = () => {
     return (
+        <Router history={history}>
             <Switch>
                 {
                     routes.map(
@@ -23,5 +25,6 @@ export const AppRoute = () => {
                     )
                 }
             </Switch>
+        </Router>
     )
 };
