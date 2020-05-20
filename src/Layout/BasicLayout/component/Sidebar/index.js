@@ -1,10 +1,11 @@
 import React from 'react';
 import {Menu} from "antd";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGlobe, faAmericanSignLanguageInterpreting} from '@fortawesome/free-solid-svg-icons';
+import {faGlobe, faAmericanSignLanguageInterpreting, faSms, faUserCircle} from '@fortawesome/free-solid-svg-icons';
+import {connect} from "react-redux";
+import {history} from '../../../../redux/store';
 
 const Sidebar = () => {
-
     const logoDivStyle = {
         width: 256,
         backgroundColor: 'inherit',
@@ -21,17 +22,25 @@ const Sidebar = () => {
     return (
         <Menu theme={'dark'} style={{width: 256, height: '100vh'}}>
 
-            <div style={logoDivStyle}>
+            <div style={logoDivStyle} onClick={() => history.push('/')}>
                 <FontAwesomeIcon icon={faAmericanSignLanguageInterpreting} size={'5x'} color={'white'} />
                 <span style={{fontSize: 20}}> Tinduet </span>
             </div>
 
-            <Menu.Item style={{fontSize: 15}}>
+            <Menu.Item style={{fontSize: 15}} onClick={() => history.push('explore')}>
                 <FontAwesomeIcon icon={faGlobe} color={'white'}/> Explore
+            </Menu.Item>
+
+            <Menu.Item style={{fontSize: 15}} onClick={() => history.push('message')}>
+                <FontAwesomeIcon icon={faSms} color={'white'}/> Messages
+            </Menu.Item>
+
+            <Menu.Item style={{fontSize: 15}} onClick={() => history.push('message')}>
+                <FontAwesomeIcon icon={faUserCircle} color={'white'}/> Profile
             </Menu.Item>
 
         </Menu>
     )
 };
 
-export default Sidebar;
+export default connect()(Sidebar);

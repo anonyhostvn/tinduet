@@ -4,11 +4,10 @@ import './index.css';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css';
+import 'react-chatbox-component/dist/style.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
 

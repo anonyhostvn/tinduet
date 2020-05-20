@@ -4,33 +4,15 @@
     <list default="true" id="fe7fc266-819c-4af4-82d6-57e7e298f300" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/basicLayout.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/BasicLayout/basicLayout.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/css/component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/css/organicfoodicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/bpicons/bpicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/bpicons/bpicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/bpicons/bpicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/bpicons/bpicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/bpicons/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/feather/feather.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/feather/feather.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/feather/feather.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/feather/feather.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/feather/feather.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/organicfoodicons/organicfoodicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/organicfoodicons/organicfoodicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/organicfoodicons/organicfoodicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/organicfoodicons/organicfoodicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/fonts/organicfoodicons/organicfoodicons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/img/loading.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/js/classie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/js/dummydata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/js/modernizr-custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/sidebar.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/BasicLayout/component/Sidebar/sidebar.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileTag/slideShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileTag/slideShow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileTag/slideShow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileTag/slideShow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/MatchingPlace/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/MatchingPlace/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/MatchingPlace/matchingPlace.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/MatchingPlace/matchingPlace.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ChatBox/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,23 +45,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\tinduet-webapp\public\fonts" />
-      <recent name="D:\workspace\tinduet-webapp\public" />
-      <recent name="D:\workspace\tinduet-webapp\src\Layout\BasicLayout\component\Sidebar" />
-      <recent name="D:\workspace\tinduet-webapp\src\components\Sidebar" />
-      <recent name="D:\workspace\tinduet-webapp\src\mockData" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\tinduet-webapp\src" />
       <recent name="D:\workspace\tinduet-webapp\public\css" />
       <recent name="D:\workspace\tinduet-webapp\public" />
       <recent name="D:\workspace\tinduet-webapp\src\App\js" />
       <recent name="D:\workspace\tinduet-webapp\src\Layout\BasicLayout\component\Sidebar" />
-      <recent name="D:\workspace\tinduet-webapp\src\mockData" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\tinduet-webapp\src\components\ChatBox\components" />
+      <recent name="D:\workspace\tinduet-webapp\media" />
+      <recent name="D:\workspace\tinduet-webapp\public\fonts" />
+      <recent name="D:\workspace\tinduet-webapp\public" />
+      <recent name="D:\workspace\tinduet-webapp\src\Layout\BasicLayout\component\Sidebar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -130,6 +112,7 @@
       <workItem from="1589908050302" duration="1784000" />
       <workItem from="1589941040013" duration="87000" />
       <workItem from="1589945334838" duration="4982000" />
+      <workItem from="1589985347218" duration="11394000" />
     </task>
     <servers />
   </component>
@@ -137,6 +120,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="687" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589999811056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589999811056" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589907451430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,41 +132,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="596" y="292" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586920760270" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589945812653">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589998216372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589945812653" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1589949536290">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589998216372" />
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1590001461116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589949536290" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1589949536289">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590001461116" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1590001461116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589949536289" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1589949536289">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590001461116" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1590001461116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589949536289" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1589949536290">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590001461116" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1590001461116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589949536290" />
-    <state x="707" y="183" key="SettingsEditor" timestamp="1589941097030">
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590001461116" />
+    <state x="707" y="183" key="SettingsEditor" timestamp="1589991269000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="183" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589941097030" />
+    <state x="707" y="183" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589991269000" />
     <state x="647" y="236" width="626" height="568" key="find.popup" timestamp="1589724681035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="236" width="626" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589724681035" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1589946284225">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1590002410357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589946284225" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588701837313">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590002410357" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590001823166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588701837313" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590001823166" />
   </component>
 </project>

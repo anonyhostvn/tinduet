@@ -6,4 +6,5 @@ export const MatchingPlaceWrapper = styled.div`
   justify-content: center;
   height: 100vh;
   padding-top: 4%;
+  
 `;

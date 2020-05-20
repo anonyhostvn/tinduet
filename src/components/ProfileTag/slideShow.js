@@ -9,7 +9,7 @@ const SingleSlide = ({imgLink}) => {
 
 const SlideShow = ({listImage, name, bio}) => {
     return (
-        <div className="container">
+        <div className="slideshow-container">
 
             <div data-am-fadeshow="next-prev-navigation">
 
