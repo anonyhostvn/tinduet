@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Balsami;
+    src: url(BalsamiqSans-Bold.ttf);
+}
+
+body {
+    font-family: Balsami, serif;
+    background-color: red;
+}
