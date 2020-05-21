@@ -1,35 +1,37 @@
 import React from 'react';
 import MatchingPlace from "../container/MatchingPlace";
-import {Route, Router, Switch} from "react-router-dom";
-import {history} from "../redux/store";
+import {Route, Switch} from "react-router-dom";
 import MessagePlace from "../container/MessagePlace";
+import ProfilePlace from "../container/ProfilePlace";
 
 export const routes = [
     {
-        path: '/explore',
+        path: '/app/explore',
         component: <MatchingPlace/>
     },
     {
-        path: '/message',
+        path: '/app/message',
         component: <MessagePlace/>
+    },
+    {
+        path: '/app/profile',
+        component: <ProfilePlace/>
     }
 ];
 
 export const AppRoute = () => {
     return (
-        <Router history={history}>
-            <Switch>
-                {
-                    routes.map(
-                        singleRoute => {
-                            const {path, component} = singleRoute;
-                            return <Route path={path} exact={true}>
-                                {component}
-                            </Route>
-                        }
-                    )
-                }
-            </Switch>
-        </Router>
+        <Switch>
+            {
+                routes.map(
+                    singleRoute => {
+                        const {path, component} = singleRoute;
+                        return <Route path={path} exact={true}>
+                            {component}
+                        </Route>
+                    }
+                )
+            }
+        </Switch>
     )
 };

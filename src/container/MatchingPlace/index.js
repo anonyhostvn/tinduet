@@ -6,7 +6,6 @@ import img2 from "../../mockData/example2.webp";
 import img3 from '../../mockData/girl_2_a.webp';
 import img4 from '../../mockData/girl_2_b.webp';
 import img5 from '../../mockData/girl_2_c.webp';
-import bgImg from '../../media/1603.jpg';
 import {MatchingPlaceWrapper} from "./matchingPlace.style";
 
 

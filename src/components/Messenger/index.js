@@ -3,7 +3,7 @@ import {ChatBoxWrapper} from "./messenger.style";
 import {ChatBox} from 'react-chatbox-component';
 import ListFriend from "./components/ListFriend";
 
-const Messenger = ({}) => {
+const Messenger = () => {
 
     const listMessage = [
         {
