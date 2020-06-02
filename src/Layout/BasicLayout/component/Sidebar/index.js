@@ -35,15 +35,21 @@ const Sidebar = ({_requestLogout}) => {
             </div>
 
             <Menu.Item style={{fontSize: 15}} onClick={() => history.push('/app/explore')}>
-                <FontAwesomeIcon icon={faGlobe} color={'white'}/> Explore
+                <Space>
+                    <FontAwesomeIcon icon={faGlobe} color={'white'}/> Explore
+                </Space>
             </Menu.Item>
 
-            <Menu.Item style={{fontSize: 15}} onClick={() => history.push('message')}>
-                <FontAwesomeIcon icon={faSms} color={'white'}/> Messages
+            <Menu.Item style={{fontSize: 15}} onClick={() => history.push('/app/message')}>
+                <Space>
+                    <FontAwesomeIcon icon={faSms} color={'white'}/> Messages
+                </Space>
             </Menu.Item>
 
-            <Menu.Item style={{fontSize: 15}} onClick={() => history.push('profile')}>
-                <FontAwesomeIcon icon={faUserCircle} color={'white'}/> Profile
+            <Menu.Item style={{fontSize: 15}} onClick={() => history.push('/app/profile')}>
+                <Space>
+                    <FontAwesomeIcon icon={faUserCircle} color={'white'}/> Profile
+                </Space>
             </Menu.Item>
 
             <div style={{position: 'absolute', bottom: 20, width: 256}}>

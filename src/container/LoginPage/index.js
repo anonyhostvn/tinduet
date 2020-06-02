@@ -5,14 +5,28 @@ import LoginInput from "./components/Input";
 import LoginButton from "./components/Button";
 import {history} from "../../redux/store";
 import {connect} from "react-redux";
-import {requestLogin} from '../../redux/Auth/auth.ra';
+import {requestLogin, updateUserInfo} from '../../redux/Auth/auth.ra';
 import {Redirect} from "react-router";
+import Axios from "axios";
 
-const LoginPage = ({_requestLogin, isLogin}) => {
+const url = 'http://localhost:3000';
+
+const LoginPage = ({_requestLogin, isLogin, _updateUserInfo}) => {
 
     const [userInfo, setUserInfo] = useState({username: null, password: null});
+    const {username, password} = userInfo;
 
     const onChangeUserInfo = (key, value) => setUserInfo({...userInfo, [key]: value});
+
+    const login = () => {
+        const whenSuccess = data => {
+            console.log(data);
+            _requestLogin({username: 'admin', password: '123456789'});
+            _updateUserInfo({userInfo: data.data})
+        }
+
+        Axios.post(`${url}/login`, {username, password}).then(whenSuccess);
+    };
 
     if (isLogin) return <Redirect to={'/app'}/>
 
@@ -37,7 +51,7 @@ const LoginPage = ({_requestLogin, isLogin}) => {
                             <LoginInput type={'password'} onChange={e => onChangeUserInfo('password', e.target.value)} placeholder={'Password'} iconName={'fa fa-unlock-alt'} value={userInfo.password}/>
 
                             <div className="container-login100-form-btn">
-                                <LoginButton onClick={() => _requestLogin({username: userInfo.username, password: userInfo.password})}>
+                                <LoginButton onClick={login}>
                                     Login
                                 </LoginButton>
                             </div>
@@ -73,6 +87,7 @@ const mapStateToProps = (state) => ({
 export default connect(
     mapStateToProps,
     {
-        _requestLogin: requestLogin
+        _requestLogin: requestLogin,
+        _updateUserInfo: updateUserInfo
     }
 )(LoginPage);

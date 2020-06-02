@@ -1,39 +1,39 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {ChatBoxWrapper} from "./messenger.style";
 import {ChatBox} from 'react-chatbox-component';
 import ListFriend from "./components/ListFriend";
+import Axios from 'axios';
+import {connect} from "react-redux";
 
-const Messenger = () => {
+const url = 'http://localhost:3000';
 
-    const listMessage = [
-        {
-            "text": "Hello there",
-            "id": "1",
-            "sender": {
-                "name": "Ironman",
-                "uid": "user1",
-                "avatar": "https://data.cometchat.com/assets/images/avatars/ironman.png",
-            },
-        },
-        {
-            "text": "Hello there",
-            "id": "1",
-            "sender": {
-                "name": "Ironman2",
-                "uid": "user2",
-                "avatar": "https://data.cometchat.com/assets/images/avatars/ironman.png",
-            },
-        }
-    ];
+const Messenger = ({uid}) => {
+
+    const [fetchedMessage, setFetchMessage] = useState([]);
+
+    const refreshMessage = () => {
+        Axios.get(`${url}/message`).then(data => setFetchMessage(data.data)).catch(err => console.log(err));
+    }
+
+    useEffect(() => {
+        refreshMessage();
+    }, []);
+
+    const sendMessage = (message) => {
+        Axios.post(`${url}/message`, {
+            text: message,
+            uid
+        }).then(data => refreshMessage());
+    }
 
     const user = {
-        uid: 'user1'
-    };
+        uid
+    }
 
     return (
         <ChatBoxWrapper>
             <div className={'chatboxWrapper'}>
-                <ChatBox messages={listMessage} user={user}/>
+                <ChatBox messages={fetchedMessage} user={user} onSubmit={data => sendMessage(data)}/>
             </div>
             <div className={'listFriendWrapper'}>
                 <ListFriend/>
@@ -42,4 +42,11 @@ const Messenger = () => {
     )
 };
 
-export default Messenger;
+const mapStateToProps = state => ({
+    uid: state.Auth.uid
+})
+
+export default connect(
+    mapStateToProps,
+    {}
+)(Messenger);

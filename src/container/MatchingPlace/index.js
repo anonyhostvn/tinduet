@@ -6,6 +6,9 @@ import img2 from "../../mockData/example2.webp";
 import img3 from '../../mockData/girl_2_a.webp';
 import img4 from '../../mockData/girl_2_b.webp';
 import img5 from '../../mockData/girl_2_c.webp';
+import img6 from '../../mockData/img_girl_3_a.webp';
+import img7 from '../../mockData/img_girl_3_b.webp';
+import img8 from  '../../mockData/img_girl_3_c.webp';
 import {MatchingPlaceWrapper} from "./matchingPlace.style";
 
 
@@ -19,8 +22,14 @@ const listInfo = [
         listImg: [img3, img4, img5],
         userName: 'Ngọc',
         bio: 'Có ai bắn pubg không ạ ?'
+    },
+    {
+        listImg: [img6, img7, img8],
+        userName: 'Phương Dung',
+        bio: 'Thích thì rẽ phải'
     }
 ];
+
 const MatchingPlace = () => {
     const [index, setIndex] = useState(0);
     const {listImg, userName, bio} = listInfo[index];
